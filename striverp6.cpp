@@ -7,11 +7,11 @@ int main()
     cout << "enter the value of no of rows and cols" << endl;
     cin >> n;
     cout << "the result is" << endl;
-    for(i=1; i<=n; i++)
+    for(i=n; i>=1; i--)
     {
-        for(j=n; j>=i; j--)
+        for(j=1; j<=i; j++)
         {
-            cout << "*";
+           cout << j;
         }
         cout << endl;
     }
